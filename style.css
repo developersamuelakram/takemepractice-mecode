@@ -324,7 +324,7 @@ nav ul li button {
 @media (max-width: 767px) {
   .page5img img {
     width: 400px;
-    margin-top: 280px;
+    margin-top: 180px;
   }
 
   /* .formDesign {
@@ -1102,5 +1102,15 @@ button {
   }
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 325px) {
+  .developed p {
+    font-size: 0.7rem;
+  }
+
+  .developed {
+    padding: 10px;
   }
 }

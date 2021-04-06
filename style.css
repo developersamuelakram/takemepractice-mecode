@@ -1,0 +1,1106 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+:root {
+  --gradientbackground: linear-gradient(to bottom, #ffe500 -7%, #ffffff 72%);
+  --yellowheadings: #ffe500;
+  --darkgreenheadings: #00373a;
+  --littledarkdgreen: #005f5a;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  /* if we use padding it does not affect the width of the element */
+  font-family: Prompt, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.pageOne {
+  width: 100%;
+  min-height: 690px;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: var(--gradientbackground);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00373a;
+}
+
+nav ul li button {
+  background-color: #005f5a;
+  color: white;
+  border-radius: 40px;
+  width: 150px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-family: Prompt;
+}
+
+.btnClass {
+  background-color: #005f5a;
+  color: white;
+  border-radius: 40px;
+  width: 250px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-family: Prompt;
+}
+.flag {
+  margin-left: 5px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.textOne {
+  padding-top: 48px;
+}
+
+.textOne h1 {
+  font-size: 3.8rem;
+}
+
+.textOne h2 {
+  font-size: 2.4rem;
+  padding-bottom: 20px;
+}
+
+.imageOne {
+  padding-top: 25px;
+}
+
+@media (max-width: 1300px) {
+  .flexBox {
+    grid-gap: 0px;
+  }
+}
+
+@media (max-width: 1229px) {
+  .textOne h1 {
+    font-size: 2.8rem;
+  }
+
+  .textOne h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1161px) {
+  .textOne h1 {
+    font-size: 2.8rem;
+  }
+
+  .textOne h2 {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .imageOne {
+    width: 400px;
+  }
+
+  .imageOne img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 990px) {
+  .flexBox {
+    flex-direction: column;
+  }
+  .textOne {
+    order: 2;
+    text-align: center;
+  }
+
+  .imageOne {
+    order: 1;
+  }
+}
+
+/* page2 */
+
+.pageTwo {
+  background-image: var(--gradientbackground);
+  height: 690px;
+  width: 100%;
+}
+
+.firstcol {
+  color: var(--darkgreenheadings);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.firstcol h1 {
+  font-size: 3.7rem;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.flexboxbottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flexboxbottom h2 {
+  color: #005f5a;
+  font-size: 2.2rem;
+}
+
+.flexboxbottom h3 {
+  color: #00373a;
+  font-size: 1.5rem;
+}
+
+.colleft {
+  flex: 1;
+  text-align: center;
+}
+
+.collright {
+  flex: 1;
+  text-align: center;
+}
+
+/* page3 */
+
+.page3Container {
+  background-image: var(--gradientbackground);
+  height: 690px;
+  width: auto;
+  color: #005f5a;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.2rem;
+  flex-wrap: wrap;
+}
+
+.flexBoxFlatPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.waystouse {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+}
+
+/* page4 */
+
+.page4Container {
+  background-image: linear-gradient(47deg, #00373a 17%, #005f5a 88%);
+  height: 690px;
+  width: 100%;
+}
+
+.headingPage4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingPage4 h1 {
+  color: var(--yellowheadings);
+  font-size: 3.8rem;
+}
+
+.headingPage4 h2 {
+  color: white;
+}
+
+.flexBoxpage3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+
+.flexBoxpage3 h1 {
+  color: var(--yellowheadings);
+}
+
+.flexBoxpage3 h2 {
+  color: white;
+}
+
+/* page5 contact page */
+
+.page5 {
+  background: var(--gradientbackground);
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+
+.page5img {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.page5 h1 {
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.page5cont {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .page5img img {
+    width: 400px;
+    margin-top: 280px;
+  }
+
+  /* .formDesign {
+    margin-bottom: 200px;
+  } */
+
+  .page5cont button {
+    margin-bottom: 300px;
+  }
+}
+
+@media (max-width: 407px) {
+  .page5img img {
+    width: 300px;
+    margin-top: 280px;
+  }
+}
+
+@media (max-width: 375px) {
+  .page5cont .buttonRegister {
+    background: orange;
+    width: 190px;
+  }
+
+  .page5cont #inputform {
+    width: 150px;
+  }
+
+  .flexBoxpage3 {
+    margin-top: 10px;
+  }
+}
+
+.page5cont button {
+  outline: none;
+  text-decoration: none;
+  border-radius: 40px;
+  background: orange;
+  padding: 1.3rem;
+  width: 350px;
+  font-size: 1.3rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#inputform {
+  margin: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 300px;
+
+  display: flex;
+  border: 2px solid gray;
+  flex-direction: column;
+}
+
+/* dashboard */
+
+.pageDashboard {
+  background: url(assets/dashboard.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 690px;
+  overflow: hidden;
+}
+
+.pageDashboard {
+  position: relative;
+  text-align: right;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.textShit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textShit h2 {
+  color: var(--yellowheadings);
+  text-align: center;
+  font-size: 3.4rem;
+}
+
+.textShit button {
+  color: var(--darkgreenheadings);
+  background: var(--yellowheadings);
+  padding: 1.4rem;
+  width: 200px;
+  font-size: 1.2rem;
+  font-family: Prompt;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* footer */
+
+footer {
+  background-color: #00373a;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.developed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 45%;
+  padding-bottom: 20px;
+}
+.footerdiv {
+  display: grid;
+  grid-template-areas: "addressDiv emailDiv socialDiv";
+  justify-content: center;
+  grid-gap: 150px;
+  padding-top: 40px;
+}
+
+.addressDiv {
+  grid-area: addressDiv;
+}
+
+.addressDiv p {
+  margin-top: 20px;
+  color: white;
+}
+
+.emailDiv {
+  color: white;
+  grid-area: emailDiv;
+}
+
+.emailDiv img {
+  margin: 10px;
+}
+.socialDiv {
+  color: #ffe500;
+  grid-area: socialDiv;
+}
+
+.socialDiv img {
+  margin: 10px;
+}
+
+/* media queries  */
+
+@media (max-width: 1600px) {
+  .textShit {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .textShit {
+    left: 60%;
+  }
+
+  .footerdiv {
+    grid-gap: 100px;
+  }
+
+  .headingPage4 h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1065px) {
+  .footerdiv {
+    grid-gap: 90px;
+  }
+
+  .headingPage4 h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1055px) {
+  .footerdiv {
+    grid-gap: 76px;
+  }
+
+  .headingPage4 h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1012px) {
+  .footerdiv {
+    grid-gap: 40px;
+  }
+
+  .waystouse h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+  .flexboxbottom {
+    flex-direction: column;
+  }
+
+  .pageTwo {
+    height: 1000px;
+  }
+
+  .firstcol h1 {
+    font-size: 3.2rem;
+  }
+
+  .collright {
+    padding-top: 50px;
+  }
+
+  .colleft {
+    padding-top: 20px;
+  }
+
+  .footerdiv {
+    grid-gap: 36px;
+  }
+}
+
+/* hide the mobileflat 3 steps to use mobile shit */
+
+@media screen and (min-width: 200px) and (max-width: 988px) {
+  .page3Container .flexBoxFlatPage .flatImage {
+    display: none;
+  }
+
+  .waystouse h2 {
+    padding: 50px;
+  }
+
+  .flexBoxFlatPage img {
+    padding-left: 70px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    padding-top: 1.8rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .footerdiv {
+    grid-gap: 20px;
+  }
+
+  .socialDiv h1 {
+    font-size: 1.5rem;
+  }
+
+  .textShit h2 {
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 924px) {
+  .waystouse h2 {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 888px) {
+  .waystouse h2 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 868px) {
+  .waystouse h2 {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 858px) {
+  .waystouse h2 {
+    padding: 12px;
+  }
+
+  .numbersphoto {
+    width: 10%;
+  }
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .textShit h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 827px) {
+  .waystouse h2 {
+    font-size: 1.8rem;
+  }
+} /* page why take me */
+
+@media (max-width: 886px) {
+  .headingPage4 h1 {
+    font-size: 2.8rem;
+    margin-top: 55px;
+  }
+
+  .headingPage4 h2 {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .box1 img {
+    width: 100px;
+  }
+
+  .box2 img {
+    width: 100px;
+  }
+
+  .box3 img {
+    width: 100px;
+  }
+
+  .textstyling h1 {
+    font-size: 1.7rem;
+  }
+
+  .textstyling h2 {
+    font-size: 0.8rem;
+  }
+
+  .heading {
+    font-size: 1.7rem;
+  }
+}
+
+/* getting shit together of footer */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .footerdiv {
+    grid-template-areas:
+      "addressDiv"
+      "emailDiv"
+      "socialDiv";
+    grid-gap: 50px;
+    justify-content: flex-start;
+    padding: 30px;
+  }
+
+  footer {
+    height: 500px;
+  }
+
+  .developed {
+    left: 40%;
+  }
+}
+
+/* for tablet shit */
+
+/* page why take me */
+@media (max-width: 768px) {
+  .page4Container {
+    height: 1000px;
+  }
+  .flexBoxpage3 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .waystouse h2 {
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+
+  .numbersphoto {
+    width: 8%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 784px) {
+  .firstcol h1 {
+    font-size: 2.1rem;
+    padding-bottom: 20px;
+  }
+  .pageTwo {
+    height: 950px;
+  }
+
+  .flexboxbottom {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .footerdiv {
+    grid-gap: 7px;
+  }
+  .socialDiv h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* changing dashboard image*/
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .pageDashboard {
+    background-image: url(assets/dashboard_mobile.png);
+  }
+
+  .textShit h2 {
+    color: white;
+    font-size: 2.4rem;
+  }
+
+  .textShit button {
+    color: white;
+    background-color: var(--littledarkdgreen);
+  }
+}
+
+@media (max-width: 537px) {
+  .waystouse h2 {
+    font-size: 1rem;
+  }
+
+  .heading {
+    font-size: 1.1rem;
+  }
+  .numbersphoto {
+    width: 10%;
+  }
+
+  .page3Container {
+    height: 605px;
+  }
+}
+
+@media (max-width: 500px) {
+  .page3Container {
+    height: 505px;
+  }
+
+  .heading {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 472px) {
+  .numbersphoto {
+    width: 8%;
+  }
+  .waystouse h2 {
+    font-size: 0.7rem;
+  }
+
+  .colleft img {
+    width: 360px;
+  }
+
+  .collright img {
+    width: 260px;
+  }
+
+  .page5 h1 {
+    text-align: center;
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 373px) {
+  .numbersphoto {
+    width: 10%;
+    margin-left: -50px;
+  }
+  .waystouse h2 {
+    font-size: 0.8rem;
+  }
+
+  .colleft img {
+    width: 320px;
+  }
+
+  .collright img {
+    width: 200px;
+  }
+
+  .flexboxbottom h2 {
+    font-size: 1.7rem;
+  }
+
+  .flexboxbottom h3 {
+    font-size: 1.2rem;
+  }
+
+  .firstcol {
+    padding-bottom: 50px;
+  }
+
+  .page5 h1 {
+    text-align: center;
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .imageOne img {
+    width: 400px;
+    padding-top: 40px;
+  }
+
+  .textOne h1 {
+    font-size: 2.8rem;
+  }
+
+  .textOne h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 445px) {
+  .imageOne img {
+    width: 370px;
+    padding-top: 40px;
+  }
+
+  .textOne h1 {
+    font-size: 2.4rem;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 407px) {
+  .imageOne img {
+    width: 300px;
+    padding-top: 90px;
+  }
+
+  .textOne h1 {
+    font-size: 2rem;
+    padding-right: 28px;
+    text-align: center;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    padding-right: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .textOne h1 {
+    font-size: 2rem;
+    padding-right: 68px;
+    text-align: center;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    padding-right: 62px;
+  }
+
+  .textOne button {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .textOne h1 {
+    font-size: 2rem;
+    padding-right: 88px;
+    text-align: center;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    padding-right: 72px;
+  }
+
+  .textOne button {
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .textOne h1 {
+    font-size: 2rem;
+    padding-right: 92px;
+    text-align: center;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    padding-right: 78px;
+  }
+
+  .textOne button {
+    margin-right: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .imageOne img {
+    width: 280px;
+    padding-top: 90px;
+  }
+
+  .textOne h1 {
+    font-size: 2rem;
+    padding-right: 122px;
+    text-align: center;
+  }
+
+  .textOne h2 {
+    font-size: 1.7rem;
+  }
+
+  /* .textOne button {
+  } */
+
+  .colleft img {
+    width: 230px;
+  }
+
+  .collright img {
+    width: 230px;
+  }
+}
+
+/* navigation bar shit */
+
+.menu-icon {
+  width: 40px;
+  margin-left: 20px;
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  nav ul {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    background-color: #ffe500;
+
+    z-index: 2;
+    text-align: center;
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .menu-icon {
+    width: 25px;
+    display: block;
+  }
+
+  /* .active {
+    display: block;
+  } */
+
+  .logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 978px) {
+  .textOne button {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1209px) {
+  nav ul li button {
+    width: 100px;
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+
+  .flag {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+  .textOne h1 {
+    font-size: 2rem;
+    margin-left: -10px;
+  }
+
+  .textOne h2 {
+    font-size: 1.4rem;
+    margin-left: -45px;
+  }
+
+  .textOne button {
+    margin-left: -45px;
+  }
+}
+
+@media (max-width: 345px) {
+  .heading {
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+
+  .flexBoxFlatPage {
+    margin-left: -10px;
+  }
+
+  .page3Container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 335px) {
+  .heading {
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+
+  .flexBoxFlatPage img {
+    width: 30px;
+  }
+
+  .flexBoxFlatPage {
+    margin-left: -19px;
+  }
+  .page3Container {
+    height: 300px;
+  }
+
+  .waystouse h2 {
+    font-size: 0.5rem;
+  }
+}
+
+/* animation */
+
+button {
+  animation: pulse-animation 4s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}

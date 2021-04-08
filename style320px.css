@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+:root {
+  --gradientbackground: linear-gradient(to bottom, #ffe500 -7%, #ffffff 72%);
+  --yellowheadings: #ffe500;
+  --darkgreenheadings: #00373a;
+  --littledarkdgreen: #005f5a;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: montserrat, prompt, sans-serif;
+  line-height: 1.15;
+}
+
+button {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  /* if we use padding it does not affect the width of the element */
+  font-family: Prompt, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+@media only screen and (max-width: 320px) and (min-width: 250px) {
+  .imageOne {
+    position: absolute;
+    left: 3%;
+    top: 14%;
+  }
+
+  .imageOne img {
+    width: 300px;
+  }
+
+  #homepage {
+    height: 90vh;
+  }
+
+  .textOne {
+    position: absolute;
+    left: 8%;
+    top: 49%;
+    padding: 1px;
+  }
+
+  .textOne h1 {
+    color: #00373a;
+    font-size: 2rem;
+    font-family: prompt;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+
+  .textOne h2 {
+    color: #005f5a;
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 1.29;
+    font-family: prompt;
+    text-align: center;
+    margin-right: 13px;
+    margin-top: 12px;
+    letter-spacing: -1px;
+  }
+
+  .textOne button {
+    width: 240px;
+    height: 7vh;
+    margin-top: 14px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding-bottom: 1px;
+    font-family: prompt;
+    font-weight: bold;
+    margin-left: 13px;
+  }
+
+  .textOne .btnShit {
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  /* page2 */
+
+  .pageTwo {
+    min-height: 820px;
+  }
+
+  .collright {
+    padding-top: 22px;
+  }
+
+  .colleft img {
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .pageTwo h1 {
+    font-family: prompt;
+    font-size: 2rem;
+    padding-bottom: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    color: #00373a;
+  }
+
+  .flexboxbottom h3 {
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: #005f5a;
+    margin: 5px;
+    font-size: 1rem;
+  }
+
+  .flexboxbottom h2 {
+    font-family: prompt;
+    font-size: 1.4rem;
+  }
+
+  .flexboxbottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* page3 */
+  .stepsContainer {
+    height: 730px;
+    overflow: hidden;
+  }
+
+  .mainContainer_steps h2 {
+    font-family: prompt;
+    font-size: 2rem;
+    padding-left: 2rem;
+    color: #005f5a;
+  }
+
+  .numberingphoto {
+    left: 10px;
+    position: relative;
+  }
+  .stepstextdesign {
+    position: relative;
+  }
+
+  .stepstext {
+    font-family: prompt;
+    left: 10%;
+    padding-right: 20px;
+  }
+
+  /* page4 */
+
+  .headingPage4 h1 {
+    font-family: prompt;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    padding: 20px;
+  }
+  .headingPage4 h2 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+
+  .page4Container {
+    height: 1100px;
+    padding: 4px;
+  }
+
+  .flexBoxpage3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .flexBoxpage3 .box1 {
+    margin-bottom: 30px;
+  }
+
+  .flexBoxpage3 .box2 {
+    margin-bottom: 30px;
+  }
+
+  .textstyling h1 {
+    font-family: prompt;
+    font-size: 1.6rem;
+  }
+
+  .box1 img {
+    width: 100px;
+  }
+
+  .box2 img {
+    width: 70px;
+  }
+
+  .box3 img {
+    width: 70px;
+  }
+
+  .textstyling img {
+    padding-bottom: 10px;
+  }
+
+  .flexBoxpage3 h2 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: montserrat;
+  }
+
+  /* register page */
+  .registerheading {
+    font-family: prompt;
+    color: #00373a;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 2.2rem;
+  }
+
+  .registerbuttondesign {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  /*  dashboard page*/
+
+  .headingdesisgn {
+    font-family: prompt;
+    left: 1%;
+    position: relative;
+  }
+
+  .textheading h2 {
+    font-size: 2.4rem;
+    text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.568);
+  }
+
+  .textheading .applybutton {
+    color: black;
+    width: 250px;
+    font-family: prompt;
+    font-weight: bold;
+    position: relative;
+    left: 2%;
+    height: 6vh;
+    padding-bottom: 1rem;
+    padding-top: 2%;
+  }
+
+  /* footer */
+
+  footer {
+    font-family: Montserrat;
+    width: auto;
+    height: 550px;
+    overflow: hidden;
+  }
+
+  .addressDiv h3 {
+    color: var(--yellowheadings);
+    font-family: prompt;
+    font-size: 1.1rem;
+  }
+
+  .address2 {
+    line-height: 1.7rem;
+    font-family: prompt;
+    font-size: 0.9rem;
+  }
+
+  .socialDiv h1 {
+    font-family: prompt;
+    font-size: 1.1rem;
+  }
+
+  .socialDiv img {
+    width: 100px;
+  }
+
+  .socialDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .emailDiv {
+    position: absolute;
+    top: 42%;
+  }
+
+  .emailDiv img {
+    width: 25px;
+  }
+  .emailDiv p {
+    font-size: 1rem;
+    font-family: prompt;
+  }
+
+  .footerp {
+    position: relative;
+    text-align: center;
+    font-family: prompt;
+    top: 95%;
+  }
+
+  .footerdiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  /* notificationshit */
+
+  nav ul button {
+    position: relative;
+    left: 10%;
+    font-weight: 600;
+  }
+  nav ul li .btnnav {
+    width: 250px;
+    font-size: 1.5rem;
+  }
+}

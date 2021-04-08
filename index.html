@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"></link>
+     <link rel="stylesheet" href="style768px.css"></link> 
+     <link rel="stylesheet" href="style1024px.css"></link>
+     <link rel="stylesheet" href="style1440px.css"></link>
+    <link rel="stylesheet" href="style42px.css"></link>
+    <link rel="stylesheet" href="style375px.css"></link>
+    <link rel="stylesheet" href="style320px.css"></link>
+
+
+
 
     <title>Take Me Home</title>
     <script src="https://kit.fontawesome.com/c80dc80486.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  
+
 
   </head>
   <body>
@@ -15,62 +27,65 @@
 
     <section class="pageOne" id="homepage">
 
+      <nav>
 
-       <div class="navbar">
+        <div class="logo"><img src="assets/group-11.svg" alt="logo" class="logoimg" /></div>
 
-        <img src="assets/group-11.svg" alt="logo" class="logo" />
-        <nav id="navshit">
-          <ul id="menulist" >
-            <li><a href="#homepage">Home</a></li>
-            <li><a href="#ourservice">Our Service</a></li>
-            <li><a href="#howit">How it works</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#contact">Contact us</a></li>
-            <li><button href="">Book Now</button></li>
-
-            <li><img src="assets/023-united-kingdom.svg" alt="ukflag" class="flag" /></li>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
         
-            <li><img src="assets/028-thailand.svg" alt="thaiflag" class="flag" /></li>
-          </ul>
+        <ul class="mainMenu">
 
+          <li><a  class="stylenavtext" href="#homepage">Home</a></li>
+          <li><a class="stylenavtext" href="#ourservice">Our Service</a></li>
+          <li><a class="stylenavtext" href="#howit">How it works</a></li>
+          <li><a class="stylenavtext" href="#about">About us</a></li>
+          <li><a class="stylenavtext" href="#contact">Contact us</a></li>
+          <li><button href="" class="btnnav">Book Now</button></li>
+         <li> <div class="closeMenu"><i class="fa fa-times"></i></div>
 
-        </nav>
-       
-
+          <span class="icons">
+                  
+            <img src="assets/023-united-kingdom.svg" alt="ukflag" class="flaguk" />
         
-              
-     <img src="assets/menu.png" id="menu-icon"alt="menuicon" class="menu-icon" onclick="toggleMenu()">
-         
+            <img src="assets/028-thailand.svg" alt="thaiflag" class="flagthai" />
+          
+          </span></li>
 
 
-      </div>
-   
+
+
+        </ul>
+        
+
+      </nav>
+
 
  
+      <div>
 
       <div class="flexBox">
 
       <div class="textOne">
         <h1>Stuck in Traffic?</h1>
         <h2>Let us help 'TAKE' you<br>to your destination!</h2>
-        <button  type="button" class="btnClass">BOOK NOW</button>
+        <button  type="button" class="btnClass btnShit">BOOK NOW</button>
       </div>
 
       <div class="imageOne">
-      <img src="assets/group-15.png" alt="map"></div>
+      <img class="mapshitimage" src="assets/group-15.png" alt="map"></div>
+    </div>
     </div>
   </div>
 
 
     </section>
 
-    <!-- page2 -->
     
     <section class="pageTwo" id="ourservice">
 
       <div class="firstcol">
 
-      <h1>Take Me is your time assistant<br>
+      <h1 class="page2heading">Take Me is your time assistant<br>
         during traffic
         </h1>
 
@@ -110,46 +125,55 @@
     </section>
 
 
-    <section class="page3Container" id="howit">
+    <section id="howit" class="stepsContainer">
 
-      <div class="heading">
+ 
+       <div class="mainContainer_steps">
 
-          <h1>3 steps to use our service
-          </h1>
-       </div>
+        <h2 style="grid-area: a;">3 Steps to use our service</h2>
+        <img alt="flatphone" src="assets/flat.png"
+        class="flat-phone text-center" style="grid-area: i">
 
-          
-       <div class="flexBoxFlatPage">
-      <img class="flatImage" src="assets/flat.png" alt="flat">
-      <img class="numbersphoto"src="assets/Numbering.svg" alt="numbering">
+        <div class="numberingphoto" style="grid-area: b">
 
-      
-      <div class="waystouse">
+          <img
+          alt="Number"
+          src="assets/Numbering.svg"
+          class="number-photo"
+        />
 
-        <div class="flex1">
-        <h2>Book us via TAKE ME Application</h2>
+        </div> 
+
+
+        <div class="containerforstepstext" style="grid-area:c">
+ 
+
+          <div class="stepstextdesign">
+
+
+            <p class="stepstext" style="top: 7%">
+              Book us via TAKE ME Application
+            </p>
+            <p class="stepstext" style="top: 50%">
+              Our TAKE ME Bike and Driver will find you
+            </p>
+            <p class="stepstext" style="top: 92%">
+              TAKE ME Bike will send you to your destination while our TAKE ME
+              Driver will drive your car for you
+            </p>
+
+          </div> 
+
+
+        </div>
+
+
+
       </div>
-
-      <div class="flex2">
-        <h2>Our TAKE ME Bike and Driver will find you</h2></div>
-        <div class="flex3">
-        <h2>TAKE ME Bike will send you to <br> your destination while our TAKE <br> ME Driver will drive your car for you</h2></div></div>
-      </div>
-
-       
-        
-       
-
-
-
-    </div>
-    
-  </div>
-      
 
 
     </section>
-
+  
 
     <!-- page4 -->
     
@@ -207,50 +231,60 @@
 
     <!-- page5 -->
 
-    <section class="page5">
-      <h1>Register Now!</h1>
+    <section class="registerpage">
+      <h2 class="registerheading">Register Now!</h2>
+      <div class="registercontainer">
+      <div class="formRegister">
+      <input type="text" style="width:85vw"  placeholder="Name" value="">
+      <input type="email" style="width:85vw"  placeholder="Email" value="">
+      <button  style="width:85vw" class="registerbuttondesign">REGISTER</button>
 
- 
-      <div class="page5img">
-      <img src="assets/building.svg" alt="building">
-
-    </div> 
-
-      <div class="page5cont">
-
-        
-
-
-      <form class="formDesign">
-        <input id="inputform"type="text" placeholder="Name"></input>
-        <input id="inputform" type="email" placeholder="Email"></input>
+      </div>
+    </div>
+    <div class="registerationImage">
+      <img alt="Registration" src="assets/building.svg" style="max-width:80vw">
+      </div>
+      </div>
 
 
-      </form>
+    </section>
 
-      <button class="buttonRegister" type="button">Register Now</button>
+
+
+    <!-- pagedashboard -->
+
+  <section class="dashboardMain">
+
+  <!-- formobile -->
+  <div class="mobile-en">
+    <img src="assets/dashboard_mobile.png" alt="dashboardformbl">
+  </div>
+
+  <!-- for laptop -->
+
+  <div class="laptop-en">
+    <img src="assets/dashboard.png" alt="dashboardformbl">
+  </div>
+
+  <div class="contofapplynow">
+    <div class="applynow">
+
+      <div class="textheading">
+
+        <h2 class="headingdesisgn">Join Our Team</h2>
+        <button class="applybutton" href="#">APPLY NOW</button>
+
+      </div>
+
 
     </div>
 
 
 
-    </section> 
 
+  </div>
 
-
-    <!-- pagedashboard -->
-    <section class="pageDashboard" >
-
-
-    <div class="textShit">
-
-    <h2>Join Our Team</h2>
-    <button class="buttonAPPLY">Apply Now</button>
-    
-
-
-
-    </section>
+  </section>
 
 
 
@@ -258,20 +292,19 @@
 
     <footer>
 
-      <div class="developed" id="contact">
-      <p>Developed By Sam &copy; 2021</p>
-    </div>
-      
+      <p class="footerp" style="color: white;">Developed By Sam &copy; 2021</p>
+
+       
       <div class="footerdiv">
 
 
         <div class="addressDiv">
-          <h3 style="color: white;">Conatct TAKE ME
+          <h3>Contact TAKE ME
           </h3>
         
           <div class="address2">
   
-            <p>Claymore Innovation Lab<br>
+            <p><b>Claymore Innovation Lab</b><br>
               170/43 Ocean Tower 1, 14th Floor<br>
               Sukhumvit Soi 16, Rachadapisek Road<br>
               Klongtoey, Bangkok, Thailand
@@ -281,8 +314,8 @@
         </div>
 
         <div class="emailDiv">
-          <p><b>Email:</b> takeme@gmail.com<p>
-            <img src="assets/facebook.png" alt="fb" width="40px">
+          <p><b>Email : </b> takeme@gmail.com<p>
+            <img class="fbimg" src="assets/facebook.png" alt="fb" width="40px">
             <img src="assets/instagram.png" alt="insta" width="40px">
             <img src="assets/line.png" alt="line" width="40px">
 
@@ -295,12 +328,13 @@
           <img src="assets/google-play-badge.svg" alt="googleplaystore">
 
        
-      </div>
+       </div> 
 
 
 
         
     </footer>
+
 
     <script src="navbar.js">
 

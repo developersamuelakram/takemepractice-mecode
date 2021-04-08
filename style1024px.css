@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+:root {
+  --gradientbackground: linear-gradient(to bottom, #ffe500 -7%, #ffffff 72%);
+  --yellowheadings: #ffe500;
+  --darkgreenheadings: #00373a;
+  --littledarkdgreen: #005f5a;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: montserrat, prompt, sans-serif;
+  line-height: 1.15;
+}
+
+button {
+  outline: none;
+}
+
+html {
+  box-sizing: border-box;
+  /* if we use padding it does not affect the width of the element */
+  font-family: Prompt, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .pageOne {
+    height: 650px;
+  }
+
+  .flexBox {
+    display: grid;
+    grid-template-areas: "textOne imageOne";
+    grid-gap: 20px;
+  }
+
+  .imageOne {
+    grid-area: imageOne;
+  }
+
+  .imageOne img {
+    width: 400px;
+  }
+  .textOne {
+    grid-area: textOne;
+    top: 5%;
+    left: 5%;
+    position: relative;
+  }
+
+  .textOne h1 {
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+
+    color: #00373a;
+    font-family: prompt;
+  }
+
+  .textOne button {
+    font-size: 2rem;
+    height: 8.9vh;
+    width: 350px;
+    position: relative;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 0.1;
+    font-weight: bold;
+    font-family: prompt;
+    top: 10%;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textOne h2 {
+    color: #00373a;
+    position: relative;
+    top: 9%;
+    font-family: prompt;
+    font-size: 2.3rem;
+    font-weight: 200;
+
+    left: 0%;
+  }
+
+  /* page2 */
+
+  .pageTwo {
+    height: 680px;
+  }
+
+  .firstcol h1 {
+    font-family: prompt;
+    font-size: 3.2rem;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .flexboxbottom h3 {
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: #005f5a;
+    margin-top: 5px;
+    font-size: 1.5rem;
+  }
+
+  .flexboxbottom h2 {
+    font-family: prompt;
+    font-size: 2.2rem;
+  }
+
+  .imagecar img {
+    width: 500px;
+  }
+
+  .imagebike img {
+    width: 220px;
+  }
+
+  .colleft {
+    padding-left: 50px;
+  }
+  /* page3 */
+  .stepsContainer {
+    height: 730px;
+    overflow: hidden;
+  }
+
+  .mainContainer_steps h2 {
+    font-family: prompt;
+    font-size: 3rem;
+    left: 2%;
+    position: relative;
+  }
+
+  .numberingphoto {
+    left: 20px;
+    position: relative;
+  }
+
+  .stepstextdesign {
+    width: 500px;
+    position: relative;
+    left: -1%;
+    font-size: 2rem;
+  }
+
+  .mainContainer_steps {
+    left: 2%;
+  }
+
+  .stepstext {
+    font-family: prompt;
+  }
+
+  /*   /* page4 */
+
+  .headingPage4 h1 {
+    font-family: prompt;
+    letter-spacing: 1px;
+    font-size: 3.4rem;
+    margin-top: 50px;
+    margin-bottom: 12px;
+  }
+  .headingPage4 h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+
+  .flexBoxpage3 {
+    flex-direction: row;
+  }
+
+  .textstyling h1 {
+    font-family: prompt;
+    font-size: 1.8rem;
+  }
+
+  .box1 img {
+    width: 120px;
+  }
+
+  .box2 img {
+    width: 90px;
+  }
+
+  .box3 img {
+    width: 90px;
+  }
+
+  .textstyling img {
+    padding-bottom: 10px;
+  }
+
+  .flexBoxpage3 {
+    align-items: flex-end;
+  }
+
+  .flexBoxpage3 h2 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-family: montserrat;
+    letter-spacing: 1px;
+  }
+
+  .page4Container {
+    height: 650px;
+  }
+
+  /* register page */
+  .registerheading {
+    font-family: prompt;
+    color: #00373a;
+  }
+
+  .registerbuttondesign {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  /*  dashboard page*/
+
+  .headingdesisgn {
+    font-family: prompt;
+    left: 2%;
+    position: relative;
+  }
+  .textheading h2 {
+    font-size: 3.7rem;
+    text-shadow: 3px 1px 2px black;
+  }
+  .textheading .applybutton {
+    color: black;
+    width: 300px;
+    font-family: prompt;
+    font-weight: 600;
+    position: relative;
+    left: 2%;
+    height: 8vh;
+    top: -10%;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  /* footer */
+
+  footer {
+    font-family: Montserrat;
+    width: auto;
+    height: 400px;
+  }
+
+  .addressDiv h3 {
+    color: var(--yellowheadings);
+    font-family: prompt;
+    font-size: 1.4rem;
+  }
+
+  .address2 {
+    line-height: 1.7rem;
+    font-family: montserrat;
+    font-size: 1rem;
+  }
+
+  .socialDiv h1 {
+    font-family: prompt;
+    position: relative;
+    font-size: 1.4rem;
+  }
+
+  .socialDiv img {
+    width: 100px;
+  }
+
+  .emailDiv {
+    position: relative;
+    top: 10%;
+    margin: 20px;
+  }
+
+  .emailDiv p {
+    font-size: 1.1rem;
+    font-family: prompt;
+  }
+
+  .footerp {
+    position: relative;
+    text-align: center;
+    font-family: prompt;
+    top: 90%;
+  }
+
+  .footerdiv {
+    margin-left: 60px;
+  }
+}

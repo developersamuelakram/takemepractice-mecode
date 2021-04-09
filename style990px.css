@@ -32,21 +32,21 @@ html {
     Arial, sans-serif;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 990px) and (min-width: 721px) {
   .imageOne {
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 29%;
   }
 
   #homepage {
-    height: 120vh;
+    height: 180vh;
   }
 
   .textOne {
     position: absolute;
-    left: 27%;
-    top: 82%;
+    left: 28%;
+    top: 122%;
   }
 
   .textOne h1 {
@@ -71,7 +71,7 @@ html {
 
   .textOne button {
     width: 380px;
-    height: 9vh;
+    height: auto;
     margin-top: 14px;
     border-radius: 50px;
     font-size: 2rem;
@@ -117,6 +117,7 @@ html {
   /* page3 */
   .stepsContainer {
     height: 730px;
+    overflow: hidden;
   }
 
   .mainContainer_steps h2 {
@@ -223,7 +224,6 @@ html {
 
   .headingdesisgn {
     font-family: prompt;
-    left: -11%;
     position: relative;
   }
 
@@ -238,8 +238,7 @@ html {
     font-family: prompt;
     font-weight: 600;
     position: relative;
-    left: -10%;
-    height: 8vh;
+    height: auto;
     padding: 1.2rem;
     font-family: prompt;
   }
@@ -297,5 +296,16 @@ html {
     grid-gap: 20px;
     grid-template-columns: 1fr 1.4fr 1fr;
     margin-left: 40px;
+  }
+
+  nav ul button {
+    font-weight: 600;
+  }
+  nav ul li .btnnav {
+    width: 300px;
+    font-size: 1.5rem;
+    height: 8vh;
+    position: relative;
+    left: 80%;
   }
 }

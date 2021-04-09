@@ -32,56 +32,79 @@ html {
     Arial, sans-serif;
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1025px) {
-  .pageOne {
-    height: 650px;
+@media (max-width: 499px) and (min-width: 426px) {
+  .imageOne {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
   }
+
+  .imageOne img {
+    max-width: 460px;
+  }
+
+  #homepage {
+    height: 160vh;
+    overflow: hidden;
+  }
+
+  .textOne {
+    position: absolute;
+    left: 13%;
+    top: 105%;
+  }
+
   .textOne h1 {
     color: #00373a;
-    font-size: 4rem;
+    font-size: 2.6rem;
     font-family: prompt;
     letter-spacing: 1px;
     font-weight: 700;
-    margin-top: 6%;
+    margin-top: -70px;
   }
 
   .textOne h2 {
     color: #00373a;
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 2.1rem;
+    font-weight: 200;
     line-height: 1.29;
     font-family: prompt;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: -30px;
   }
 
   .textOne button {
-    width: 380px;
-    height: 8vh;
+    width: 300px;
+    height: auto;
     margin-top: 14px;
     border-radius: 50px;
     font-size: 2rem;
-    padding-top: 0.1rem;
     font-family: prompt;
     font-weight: bold;
   }
 
-  .flexboxbottom {
-    padding-left: 50px;
-  }
-  .mapshitimage {
-    left: 10%;
-    position: relative;
-  }
   /* page2 */
 
   .pageTwo {
-    height: 680px;
+    min-height: 950px;
+    overflow: hidden;
   }
 
-  .firstcol h1 {
+  .collright {
+    padding-top: 22px;
+  }
+
+  .colleft img {
+    width: 350px;
+  }
+
+  .pageTwo h1 {
     font-family: prompt;
-    font-size: 4rem;
+    font-size: 2.8rem;
     padding-bottom: 40px;
     font-weight: bold;
+    color: var(--darkgreenheadings);
   }
 
   .flexboxbottom h3 {
@@ -89,61 +112,79 @@ html {
     margin-bottom: 50px;
     color: #005f5a;
     margin-top: 5px;
-    font-size: 1.8rem;
   }
 
   .flexboxbottom h2 {
     font-family: prompt;
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
 
-  .imagecar img {
-    width: 600px;
+  .flexboxbottom {
+    display: flex;
+    flex-direction: column;
   }
 
-  .imagebike img {
-    width: 250px;
-  }
   /* page3 */
   .stepsContainer {
     height: 730px;
+    overflow: hidden;
   }
 
-  .mainContainer_steps h2 {
+  .stepsContainer .mainContainer_steps h2 {
     font-family: prompt;
-    font-size: 3.6rem;
+    font-size: 3rem;
+    width: 90vw;
   }
 
   .numberingphoto {
-    left: 30px;
     position: relative;
   }
   .stepstextdesign {
-    width: 500px;
+    width: 10px;
     position: relative;
-    left: 10%;
   }
 
   .stepstext {
     font-family: prompt;
+    left: 10%;
   }
 
   .headingPage4 h1 {
     font-family: prompt;
     letter-spacing: 1px;
-    font-size: 3.6rem;
-    margin-top: 50px;
+    font-size: 3rem;
     margin-bottom: 12px;
   }
   .headingPage4 h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 1px;
   }
 
   /* page4 */
 
+  .page4Container {
+    height: 1050px;
+    overflow: hidden;
+  }
+
+  .page4Container h1 {
+    padding-top: 20px;
+  }
+
   .flexBoxpage3 {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .flexBoxpage3 .box1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .flexBoxpage3 .box2 {
+    padding-bottom: 40px;
   }
 
   .textstyling h1 {
@@ -152,23 +193,19 @@ html {
   }
 
   .box1 img {
-    width: 120px;
+    width: 100px;
   }
 
   .box2 img {
-    width: 90px;
+    width: 70px;
   }
 
   .box3 img {
-    width: 90px;
+    width: 70px;
   }
 
   .textstyling img {
     padding-bottom: 10px;
-  }
-
-  .flexBoxpage3 {
-    align-items: flex-end;
   }
 
   .flexBoxpage3 h2 {
@@ -177,14 +214,12 @@ html {
     font-family: montserrat;
   }
 
-  .page4Container {
-    height: 650px;
-  }
-
   /* register page */
   .registerheading {
     font-family: prompt;
     color: #00373a;
+    font-size: 2.8rem;
+    padding-top: 30px;
   }
 
   .registerbuttondesign {
@@ -196,25 +231,23 @@ html {
 
   .headingdesisgn {
     font-family: prompt;
-    left: 2%;
     position: relative;
   }
+
   .textheading h2 {
-    font-size: 3.7rem;
+    font-size: 3.2rem;
     text-shadow: 3px 1px 2px black;
   }
+
   .textheading .applybutton {
     color: black;
     width: 300px;
     font-family: prompt;
     font-weight: 600;
     position: relative;
-    left: 2%;
-    height: 9vh;
-    top: -10%;
-    font-size: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 0.5rem;
+    height: auto;
+    padding: 1.2rem;
+    font-family: prompt;
   }
 
   /* footer */
@@ -222,51 +255,72 @@ html {
   footer {
     font-family: Montserrat;
     width: auto;
+    height: auto;
+    overflow: hidden;
   }
 
   .addressDiv h3 {
     color: var(--yellowheadings);
     font-family: prompt;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .address2 {
-    line-height: 1.9rem;
+    line-height: 1.7rem;
     font-family: montserrat;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .socialDiv h1 {
     font-family: prompt;
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .socialDiv img {
-    width: 150px;
-    margin-top: 20px;
+    width: 100px;
   }
 
-  .emailDiv {
-    position: relative;
-    top: 10%;
-    margin: 20px;
+  .socialDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emailDiv img {
+    width: 25px;
   }
 
   .emailDiv p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: prompt;
   }
 
   .footerp {
-    position: relative;
+    position: absolute;
     text-align: center;
     font-family: prompt;
-    top: 90%;
+    top: 93%;
+    left: 33%;
   }
 
   .footerdiv {
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  nav ul button {
+    justify-items: center;
+    font-weight: 600;
+    position: relative;
+    left: 70%;
+  }
+  nav ul li .btnnav {
+    width: 200px;
+    font-size: 1.5rem;
+    height: 8vh;
   }
 }

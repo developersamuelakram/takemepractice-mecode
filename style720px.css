@@ -1,4 +1,4 @@
-/* /* @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
 * {
@@ -32,72 +32,61 @@ html {
     Arial, sans-serif;
 }
 
-@media (max-width: 425px) and (min-width: 376px) {
+@media (max-width: 720px) and (min-width: 600px) {
   .imageOne {
     position: absolute;
-    left: 3%;
-    top: 20%;
-  }
-
-  .imageOne img {
-    width: 350px;
+    left: 5%;
+    top: 29%;
   }
 
   #homepage {
-    height: 140vh;
-    overflow: hidden;
+    height: 180vh;
   }
 
   .textOne {
     position: absolute;
-    left: 10%;
-    top: 90%;
-    width: 330px;
+    left: 20%;
+    top: 122%;
   }
 
   .textOne h1 {
     color: #00373a;
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-family: prompt;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 700;
-    margin-top: -90px;
+    margin-top: -70px;
   }
 
   .textOne h2 {
-    color: #005f5a;
-    font-size: 2rem;
+    color: #00373a;
+    font-size: 2.1rem;
     font-weight: 200;
     line-height: 1.29;
     font-family: prompt;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-left: -30px;
   }
 
   .textOne button {
-    width: 320px;
-    height: 10vh;
+    width: 380px;
+    height: auto;
     margin-top: 14px;
     border-radius: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: prompt;
-
     font-weight: bold;
   }
 
   /* page2 */
 
   .pageTwo {
-    min-height: 900px;
+    min-height: 950px;
   }
 
   .collright {
     padding-top: 22px;
-  }
-
-  .colleft img {
-    width: 370px;
   }
 
   .pageTwo h1 {
@@ -105,7 +94,7 @@ html {
     font-size: 2.8rem;
     padding-bottom: 40px;
     font-weight: bold;
-    color: #005f5a;
+    color: var(--darkgreenheadings);
   }
 
   .flexboxbottom h3 {
@@ -131,44 +120,46 @@ html {
     overflow: hidden;
   }
 
-  .mainContainer_steps h2 {
+  .stepsContainer .mainContainer_steps h2 {
     font-family: prompt;
-    font-size: 2rem;
-    padding-left: 2rem;
-    color: #005f5a;
+    font-size: 3rem;
+    width: 100vw;
   }
 
   .numberingphoto {
-    left: 10px;
+    left: 30px;
     position: relative;
+    padding-left: 50px;
   }
   .stepstextdesign {
+    width: 400px;
     position: relative;
   }
 
   .stepstext {
     font-family: prompt;
     left: 10%;
-    padding-right: 20px;
   }
-
-  /* page4 */
 
   .headingPage4 h1 {
     font-family: prompt;
     letter-spacing: 1px;
-    font-size: 2.4rem;
+    font-size: 3rem;
     margin-bottom: 12px;
-    padding: 20px;
   }
   .headingPage4 h2 {
     font-size: 1rem;
     letter-spacing: 1px;
-    padding: 5px;
   }
+
+  /* page4 */
 
   .page4Container {
     height: 1000px;
+  }
+
+  .page4Container h1 {
+    padding-top: 20px;
   }
 
   .flexBoxpage3 {
@@ -179,11 +170,12 @@ html {
   }
 
   .flexBoxpage3 .box1 {
-    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   .flexBoxpage3 .box2 {
-    margin-bottom: 30px;
+    padding-bottom: 40px;
   }
 
   .textstyling h1 {
@@ -217,8 +209,8 @@ html {
   .registerheading {
     font-family: prompt;
     color: #00373a;
-    margin-left: 20px;
-    padding-top: 20px;
+    font-size: 2.8rem;
+    padding-top: 30px;
   }
 
   .registerbuttondesign {
@@ -230,12 +222,11 @@ html {
 
   .headingdesisgn {
     font-family: prompt;
-    left: 1%;
     position: relative;
   }
 
   .textheading h2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-shadow: 3px 1px 2px black;
   }
 
@@ -245,13 +236,9 @@ html {
     font-family: prompt;
     font-weight: 600;
     position: relative;
-    left: 2%;
-    height: 14vh;
-    border-radius: 50px;
-    font-size: 1.5rem;
+    height: auto;
+    padding: 1.2rem;
     font-family: prompt;
-
-    font-weight: bold;
   }
 
   /* footer */
@@ -259,25 +246,26 @@ html {
   footer {
     font-family: Montserrat;
     width: auto;
-    height: 550px;
+    height: auto;
     overflow: hidden;
   }
 
   .addressDiv h3 {
     color: var(--yellowheadings);
     font-family: prompt;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .address2 {
     line-height: 1.7rem;
-    font-family: prompt;
-    font-size: 0.9rem;
+    font-family: montserrat;
+    font-size: 1rem;
   }
 
   .socialDiv h1 {
     font-family: prompt;
-    font-size: 1.2rem;
+    position: relative;
+    font-size: 1.4rem;
   }
 
   .socialDiv img {
@@ -288,43 +276,42 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .emailDiv {
-    position: absolute;
-    top: 42%;
-  }
 
   .emailDiv img {
     width: 25px;
   }
+
   .emailDiv p {
     font-size: 1rem;
     font-family: prompt;
   }
 
   .footerp {
-    position: relative;
+    position: absolute;
     text-align: center;
     font-family: prompt;
-    top: 95%;
+    top: 93%;
+    left: 43%;
   }
 
   .footerdiv {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
   }
-  */
-
-  /* notificationshit */
 
   nav ul button {
+    justify-items: center;
     font-weight: 600;
+    position: relative;
+    left: 120%;
   }
   nav ul li .btnnav {
     width: 200px;
     font-size: 1.5rem;
     height: 8vh;
-    position: relative;
-    left: 50%;
   }
 }

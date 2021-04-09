@@ -32,55 +32,55 @@ html {
     Arial, sans-serif;
 }
 
-@media only screen and (max-width: 375px) and (min-width: 321px) {
+@media (max-width: 375px) and (min-width: 321px) {
   .imageOne {
     position: absolute;
-    left: 3%;
+    left: 1%;
     top: 20%;
   }
 
   .imageOne img {
-    width: 360px;
+    width: 310px;
   }
 
   #homepage {
     height: 90vh;
+    overflow: hidden;
   }
 
   .textOne {
     position: absolute;
-    left: 8%;
-    top: 58%;
-    padding: 1px;
+    left: 10%;
+    top: 70%;
   }
 
   .textOne h1 {
     color: #00373a;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-family: prompt;
     letter-spacing: 2px;
     font-weight: 700;
+    padding: 2px;
   }
 
   .textOne h2 {
     color: #005f5a;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 200;
     line-height: 1.29;
     font-family: prompt;
     text-align: center;
-    margin-left: -30px;
     margin-top: 12px;
   }
 
   .textOne button {
-    width: 320px;
-    height: 7vh;
+    width: 260px;
+    height: 10vh;
     margin-top: 14px;
     border-radius: 50px;
     font-size: 1.5rem;
-    padding-bottom: 1px;
     font-family: prompt;
+
     font-weight: bold;
   }
 
@@ -176,7 +176,7 @@ html {
   }
 
   .page4Container {
-    height: 1000px;
+    height: 1120px;
     padding: 4px;
   }
 
@@ -256,7 +256,7 @@ html {
     font-weight: bold;
     position: relative;
     left: 2%;
-    height: 6vh;
+    height: 9vh;
     padding-bottom: 1rem;
     padding-top: 2%;
   }
@@ -324,12 +324,14 @@ html {
   /* notificationshit */
 
   nav ul button {
-    position: relative;
-    left: 10%;
+    justify-items: center;
     font-weight: 600;
+    position: relative;
+    left: 40%;
   }
   nav ul li .btnnav {
-    width: 300px;
+    width: 200px;
     font-size: 1.5rem;
+    height: 8vh;
   }
 }

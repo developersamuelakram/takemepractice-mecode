@@ -37,7 +37,7 @@ nav {
   display: flex;
   justify-content: space-between;
   font-family: prompt;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 nav ul li {
@@ -72,24 +72,23 @@ nav .mainMenu .closeMenu {
 }
 
 .flaguk {
-  left: 16%;
-  position: relative;
+  padding-right: 20px;
 }
 
 .flagthai {
-  left: 50%;
-  position: relative;
+  padding-right: 50px;
 }
 
 .logo {
   cursor: pointer;
+  padding-left: 5%;
 }
 
 .logohide {
   display: none;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 320px) {
+@media only screen and (max-width: 990px) and (min-width: 320px) {
   .logohide {
     display: block;
   }
@@ -103,10 +102,11 @@ nav .mainMenu .closeMenu {
 
   .logo {
     padding-left: 15px;
+    padding-top: 0px;
   }
 
   nav .mainMenu {
-    height: 70vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -157,8 +157,7 @@ nav .mainMenu .closeMenu {
 .pageOne {
   width: 100%;
   min-height: 690px;
-  padding-left: 8%;
-  padding-right: 8%;
+
   box-sizing: border-box;
   overflow: hidden;
   background-image: var(--gradientbackground);
@@ -889,5 +888,11 @@ button {
 @media only screen and (max-width: 767px) {
   .registerpage {
     min-height: unset;
+  }
+}
+
+@media (max-width: 1030px) {
+  #homepage .flexBox .textOne {
+    color: white;
   }
 }

@@ -1,4 +1,4 @@
-/* /* @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
 * {
@@ -32,80 +32,94 @@ html {
     Arial, sans-serif;
 }
 
-@media (max-width: 425px) and (min-width: 376px) {
-  .imageOne {
-    position: absolute;
-    left: 3%;
-    top: 20%;
+@media (max-width: 1278px) and (min-width: 991px) {
+  *,
+  ::after ::before {
+    box-sizing: inherit;
   }
 
-  .imageOne img {
-    width: 350px;
+  .pageOne {
+    min-height: 700px;
   }
 
-  #homepage {
-    height: 140vh;
+  .flexBox {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
   }
 
-  .textOne {
-    position: absolute;
-    left: 10%;
-    top: 90%;
-    width: 330px;
+  .imageOne img {
+    max-width: 100%;
+    width: 599px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 
+  .imageOne img {
+    max-width: 100%;
+    width: 559px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .imageOne {
+    position: absolute;
+    top: 22%;
+    left: 47%;
+  }
+
+  .textOne {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;
+    left: 5%;
+    top: 24%;
+  }
   .textOne h1 {
     color: #00373a;
-    font-size: 2.2rem;
+    font-size: 3.25rem;
     font-family: prompt;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 700;
-    margin-top: -90px;
   }
 
   .textOne h2 {
-    color: #005f5a;
-    font-size: 2rem;
-    font-weight: 200;
+    color: #00373a;
+    font-size: 2.75rem;
+    font-weight: 300;
     line-height: 1.29;
     font-family: prompt;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-left: -30px;
   }
 
   .textOne button {
-    width: 320px;
-    height: 10vh;
+    width: 380px;
+    height: auto;
     margin-top: 14px;
     border-radius: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-top: 0.7rem;
     font-family: prompt;
-
     font-weight: bold;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
   }
 
   /* page2 */
 
   .pageTwo {
-    min-height: 900px;
+    height: 680px;
   }
 
-  .collright {
-    padding-top: 22px;
-  }
-
-  .colleft img {
-    width: 370px;
-  }
-
-  .pageTwo h1 {
+  .firstcol h1 {
     font-family: prompt;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     padding-bottom: 40px;
     font-weight: bold;
-    color: #005f5a;
   }
 
   .flexboxbottom h3 {
@@ -113,18 +127,25 @@ html {
     margin-bottom: 50px;
     color: #005f5a;
     margin-top: 5px;
+    font-size: 1.5rem;
   }
 
   .flexboxbottom h2 {
     font-family: prompt;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
-  .flexboxbottom {
-    display: flex;
-    flex-direction: column;
+  .imagecar img {
+    width: 500px;
   }
 
+  .imagebike img {
+    width: 220px;
+  }
+
+  .colleft {
+    padding-left: 50px;
+  }
   /* page3 */
   .stepsContainer {
     height: 730px;
@@ -133,92 +154,90 @@ html {
 
   .mainContainer_steps h2 {
     font-family: prompt;
-    font-size: 2rem;
-    padding-left: 2rem;
-    color: #005f5a;
+    font-size: 3rem;
+    left: 2%;
+    position: relative;
   }
 
   .numberingphoto {
-    left: 10px;
+    left: 20px;
     position: relative;
   }
+
   .stepstextdesign {
+    width: 500px;
     position: relative;
+    left: -1%;
+    font-size: 2rem;
+  }
+
+  .mainContainer_steps {
+    left: 2%;
   }
 
   .stepstext {
     font-family: prompt;
-    left: 10%;
-    padding-right: 20px;
   }
 
-  /* page4 */
+  /*   /* page4 */
 
   .headingPage4 h1 {
     font-family: prompt;
     letter-spacing: 1px;
-    font-size: 2.4rem;
+    font-size: 3.4rem;
+    margin-top: 50px;
     margin-bottom: 12px;
-    padding: 20px;
   }
   .headingPage4 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
-    padding: 5px;
-  }
-
-  .page4Container {
-    height: 1000px;
+    padding: 10px;
   }
 
   .flexBoxpage3 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .flexBoxpage3 .box1 {
-    margin-bottom: 30px;
-  }
-
-  .flexBoxpage3 .box2 {
-    margin-bottom: 30px;
+    flex-direction: row;
   }
 
   .textstyling h1 {
     font-family: prompt;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .box1 img {
-    width: 100px;
+    width: 120px;
   }
 
   .box2 img {
-    width: 70px;
+    width: 90px;
   }
 
   .box3 img {
-    width: 70px;
+    width: 90px;
   }
 
   .textstyling img {
     padding-bottom: 10px;
   }
 
+  .flexBoxpage3 {
+    align-items: flex-end;
+  }
+
   .flexBoxpage3 h2 {
     padding-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: montserrat;
+    letter-spacing: 1px;
+  }
+
+  .page4Container {
+    height: 650px;
   }
 
   /* register page */
   .registerheading {
     font-family: prompt;
     color: #00373a;
-    margin-left: 20px;
-    padding-top: 20px;
   }
 
   .registerbuttondesign {
@@ -230,15 +249,13 @@ html {
 
   .headingdesisgn {
     font-family: prompt;
-    left: 1%;
+    left: 2%;
     position: relative;
   }
-
   .textheading h2 {
-    font-size: 3rem;
+    font-size: 3.7rem;
     text-shadow: 3px 1px 2px black;
   }
-
   .textheading .applybutton {
     color: black;
     width: 300px;
@@ -246,58 +263,47 @@ html {
     font-weight: 600;
     position: relative;
     left: 2%;
-    height: 14vh;
-    border-radius: 50px;
-    font-size: 1.5rem;
-    font-family: prompt;
-
-    font-weight: bold;
+    height: auto;
+    top: -10%;
+    font-size: 2rem;
+    padding-top: 1rem;
   }
 
   /* footer */
 
   footer {
     font-family: Montserrat;
-    width: auto;
-    height: 550px;
-    overflow: hidden;
+    max-height: auto;
   }
 
   .addressDiv h3 {
     color: var(--yellowheadings);
     font-family: prompt;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .address2 {
-    line-height: 1.7rem;
-    font-family: prompt;
-    font-size: 0.9rem;
+    line-height: 1.9rem;
+    font-family: montserrat;
+    font-size: 1.2rem;
   }
 
   .socialDiv h1 {
     font-family: prompt;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .socialDiv img {
-    width: 100px;
+    width: 150px;
   }
 
-  .socialDiv {
-    display: flex;
-    flex-direction: column;
-  }
   .emailDiv {
-    position: absolute;
-    top: 42%;
+    text-align: center;
+    margin-top: 50px;
   }
 
-  .emailDiv img {
-    width: 25px;
-  }
   .emailDiv p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: prompt;
   }
 
@@ -305,26 +311,14 @@ html {
     position: relative;
     text-align: center;
     font-family: prompt;
-    top: 95%;
+    top: 90%;
   }
 
   .footerdiv {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-  }
-  */
-
-  /* notificationshit */
-
-  nav ul button {
-    font-weight: 600;
-  }
-  nav ul li .btnnav {
-    width: 200px;
-    font-size: 1.5rem;
-    height: 8vh;
-    position: relative;
-    left: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
   }
 }

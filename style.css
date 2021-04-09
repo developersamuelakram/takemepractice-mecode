@@ -85,7 +85,26 @@ nav .mainMenu .closeMenu {
   cursor: pointer;
 }
 
+.logohide {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) and (min-width: 320px) {
+  .logohide {
+    display: block;
+  }
+  nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #ffe500;
+    z-index: 1;
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+
   nav .mainMenu {
     height: 70vh;
     position: fixed;

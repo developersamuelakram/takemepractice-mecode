@@ -36,17 +36,17 @@ html {
   .imageOne {
     position: absolute;
     left: 5%;
-    top: 29%;
+    top: 10%;
   }
 
   #homepage {
-    height: 180vh;
+    height: 890px;
   }
 
   .textOne {
     position: absolute;
     left: 28%;
-    top: 122%;
+    top: 66%;
   }
 
   .textOne h1 {
@@ -70,13 +70,16 @@ html {
   }
 
   .textOne button {
-    width: 380px;
-    height: auto;
+    width: 360px;
+    height: 6vh;
     margin-top: 14px;
     border-radius: 50px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: prompt;
     font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-left: 22px;
   }
 
   /* page2 */

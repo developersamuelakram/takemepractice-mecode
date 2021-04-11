@@ -36,7 +36,7 @@ html {
   .imageOne {
     position: absolute;
     left: 3%;
-    top: 20%;
+    top: 10%;
   }
 
   .imageOne img {
@@ -44,14 +44,14 @@ html {
   }
 
   #homepage {
-    height: 140vh;
+    height: 720px;
     overflow: hidden;
   }
 
   .textOne {
     position: absolute;
-    left: 10%;
-    top: 90%;
+    left: 15%;
+    top: 60%;
     width: 330px;
   }
 
@@ -76,14 +76,16 @@ html {
   }
 
   .textOne button {
-    width: 320px;
-    height: 10vh;
+    width: 240px;
+    height: 6vh;
     margin-top: 14px;
     border-radius: 50px;
     font-size: 1.5rem;
     font-family: prompt;
-
     font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-left: 22px;
   }
 
   /* page2 */
@@ -243,12 +245,13 @@ html {
     color: black;
     width: 300px;
     font-family: prompt;
-    font-weight: 600;
+    font-weight: bold;
     position: relative;
     left: 2%;
-    height: 14vh;
+    height: 8vh;
     border-radius: 50px;
     font-size: 1.5rem;
+    padding-bottom: 3rem;
     font-family: prompt;
 
     font-weight: bold;

@@ -36,17 +36,17 @@ html {
   .imageOne {
     position: absolute;
     left: 5%;
-    top: 29%;
+    top: 13%;
   }
 
   #homepage {
-    height: 180vh;
+    height: 950px;
   }
 
   .textOne {
     position: absolute;
-    left: 20%;
-    top: 122%;
+    left: 25%;
+    top: 66%;
   }
 
   .textOne h1 {

@@ -36,7 +36,7 @@ html {
   .imageOne {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 120px;
+    padding-top: 125px;
   }
 
   .imageOne img {
@@ -44,14 +44,14 @@ html {
   }
 
   #homepage {
-    height: 160vh;
+    height: 900px;
     overflow: hidden;
   }
 
   .textOne {
     position: absolute;
-    left: 13%;
-    top: 105%;
+    left: 16%;
+    top: 66%;
   }
 
   .textOne h1 {

@@ -44,14 +44,14 @@ html {
   }
 
   #homepage {
-    height: 90vh;
+    height: 750px;
     overflow: hidden;
   }
 
   .textOne {
     position: absolute;
     left: 10%;
-    top: 70%;
+    top: 54%;
   }
 
   .textOne h1 {
@@ -74,14 +74,15 @@ html {
   }
 
   .textOne button {
-    width: 260px;
-    height: 10vh;
+    width: 240px;
+    height: 7vh;
     margin-top: 14px;
     border-radius: 50px;
     font-size: 1.5rem;
+    padding-bottom: 1px;
     font-family: prompt;
-
     font-weight: bold;
+    margin-left: 22px;
   }
 
   .textOne .btnShit {
@@ -330,7 +331,7 @@ html {
     left: 40%;
   }
   nav ul li .btnnav {
-    width: 200px;
+    width: 100px;
     font-size: 1.5rem;
     height: 8vh;
   }

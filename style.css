@@ -33,6 +33,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.mainBox {
+  position: relative;
+}
+
+.body {
+  box-sizing: border-box;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -106,7 +113,7 @@ nav .mainMenu .closeMenu {
   }
 
   nav .mainMenu {
-    height: 100vh;
+    height: 650px;
     position: fixed;
     top: 0;
     right: 0;

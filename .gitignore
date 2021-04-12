@@ -61,7 +61,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Hiding VS CODE
-/.vscode*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,vscode

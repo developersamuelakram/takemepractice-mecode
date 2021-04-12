@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  font-family: montserrat, prompt, sans-serif;
+  font-family: montserrat, sans-serif;
   line-height: 1.15;
 }
 
@@ -28,7 +29,7 @@ button {
 html {
   box-sizing: border-box;
   /* if we use padding it does not affect the width of the element */
-  font-family: Prompt, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+  font-family: montserrat, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   scroll-behavior: smooth;
 }
@@ -43,7 +44,7 @@ html {
 nav {
   display: flex;
   justify-content: space-between;
-  font-family: prompt;
+  font-family: montserrat;
   padding-top: 20px;
 }
 
@@ -61,7 +62,8 @@ nav .mainMenu li a {
   text-decoration: none;
   color: #00373a;
   font-size: 1rem;
-  font-family: prompt;
+  font-family: montserrat;
+  font-weight: 600 !important;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -155,7 +157,7 @@ nav .mainMenu .closeMenu {
 
   nav ul li .stylenavtext {
     color: #00373a;
-    font-family: prompt;
+    font-family: montserrat;
     font-size: 1.6rem;
     font-weight: 200;
   }
@@ -175,11 +177,12 @@ nav ul li button {
   color: white;
   border-radius: 40px;
   width: 150px;
-  height: 6vh;
+  height: 4vh;
   padding-top: 0.3rem;
   padding-bottom: 1rem;
   font-size: 1.1rem;
-  font-family: Prompt;
+  font-family: montserrat;
+  font-weight: bold;
   border: none;
 }
 
@@ -191,7 +194,7 @@ nav ul li button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1rem;
-  font-family: Prompt;
+  font-family: montserrat;
 }
 
 .flexBox {
@@ -663,7 +666,7 @@ button {
   width: 250px;
   color: var(--darkgreenheadings);
   font-size: 1.6rem;
-  font-family: Prompt;
+  font-family: montserrat;
   border: none;
 }
 
@@ -704,7 +707,7 @@ button {
     width: 250px;
     color: var(--darkgreenheadings);
     font-size: 1.6rem;
-    font-family: Prompt;
+    font-family: montserrat;
     border: none;
     margin-top: 28rem;
   }
@@ -800,7 +803,7 @@ button {
   }
 
   .formRegister input {
-    font-family: Prompt;
+    font-family: montserrat;
   }
 
   .registerbuttondesign {
@@ -811,7 +814,7 @@ button {
     max-width: 450px;
     color: white;
     font-weight: 700;
-    font-family: Prompt;
+    font-family: montserrat;
     margin-top: 50px;
     position: absolute;
     left: 50%;
@@ -878,7 +881,7 @@ button {
     max-width: 450px;
     color: white;
     font-weight: 700;
-    font-family: Prompt;
+    font-family: montserrat;
     margin: 1rem;
   }
 

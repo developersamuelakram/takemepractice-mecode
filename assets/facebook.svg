@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="23px" viewBox="0 0 11 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TakeMe_Home" transform="translate(-566.000000, -4259.000000)" fill="#FFFFFF">
+            <g id="Footer" transform="translate(0.000000, 4103.000000)">
+                <g id="Site-Map" transform="translate(189.000000, 41.000000)">
+                    <g id="Social" transform="translate(377.000000, 115.000000)">
+                        <path d="M7.31451968,22.1349693 L7.31451968,11.0661887 L10.5687449,11.0661887 L11,7.25182564 L7.31451968,7.25182564 L7.32004859,5.34270019 C7.32004859,4.34785555 7.42072085,3.81479507 8.94255377,3.81479507 L10.9769629,3.81479507 L10.9769629,0 L7.72227691,0 C3.81287566,0 2.43686779,1.85037648 2.43686779,4.96212784 L2.43686779,7.25225762 L0,7.25225762 L0,11.0666207 L2.43686779,11.0666207 L2.43686779,22.1349693 L7.31451968,22.1349693 Z" id="Mask"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

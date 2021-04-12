@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  font-family: montserrat, prompt, sans-serif;
+  font-family: montserrat, montserrat, sans-serif;
   line-height: 1.15;
 }
 
@@ -28,7 +29,7 @@ button {
 html {
   box-sizing: border-box;
   /* if we use padding it does not affect the width of the element */
-  font-family: Prompt, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+  font-family: montserrat, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
 }
 
@@ -45,14 +46,14 @@ html {
 
   .textOne {
     position: absolute;
-    left: 25%;
+    left: 24%;
     top: 66%;
   }
 
   .textOne h1 {
     color: #00373a;
     font-size: 3rem;
-    font-family: prompt;
+    font-family: montserrat;
     letter-spacing: 1px;
     font-weight: 700;
     margin-top: -70px;
@@ -61,10 +62,11 @@ html {
   .textOne h2 {
     color: #00373a;
     font-size: 2.1rem;
-    font-weight: 200;
+    font-weight: 500;
     line-height: 1.29;
-    font-family: prompt;
+    font-family: montserrat;
     text-align: center;
+
     letter-spacing: 2px;
     margin-left: -30px;
   }
@@ -75,7 +77,7 @@ html {
     margin-top: 14px;
     border-radius: 50px;
     font-size: 2rem;
-    font-family: prompt;
+    font-family: montserrat;
     font-weight: bold;
   }
 
@@ -90,10 +92,10 @@ html {
   }
 
   .pageTwo h1 {
-    font-family: prompt;
-    font-size: 2.8rem;
+    font-family: montserrat;
+    font-size: 2.6rem;
     padding-bottom: 40px;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--darkgreenheadings);
   }
 
@@ -102,11 +104,13 @@ html {
     margin-bottom: 50px;
     color: #005f5a;
     margin-top: 5px;
+    font-weight: 500;
   }
 
   .flexboxbottom h2 {
-    font-family: prompt;
+    font-family: montserrat;
     font-size: 2rem;
+    font-weight: 700;
   }
 
   .flexboxbottom {
@@ -121,9 +125,10 @@ html {
   }
 
   .stepsContainer .mainContainer_steps h2 {
-    font-family: prompt;
+    font-family: montserrat;
     font-size: 3rem;
     width: 100vw;
+    font-weight: 700;
   }
 
   .numberingphoto {
@@ -137,19 +142,21 @@ html {
   }
 
   .stepstext {
-    font-family: prompt;
+    font-family: montserrat;
     left: 10%;
   }
 
   .headingPage4 h1 {
-    font-family: prompt;
+    font-family: montserrat;
     letter-spacing: 1px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 12px;
+    font-weight: 700;
   }
   .headingPage4 h2 {
     font-size: 1rem;
     letter-spacing: 1px;
+    font-weight: 500;
   }
 
   /* page4 */
@@ -179,8 +186,9 @@ html {
   }
 
   .textstyling h1 {
-    font-family: prompt;
+    font-family: montserrat;
     font-size: 1.6rem;
+    font-weight: 700;
   }
 
   .box1 img {
@@ -203,11 +211,12 @@ html {
     padding-top: 1rem;
     font-size: 1rem;
     font-family: montserrat;
+    font-weight: 500;
   }
 
   /* register page */
   .registerheading {
-    font-family: prompt;
+    font-family: montserrat;
     color: #00373a;
     font-size: 2.8rem;
     padding-top: 30px;
@@ -221,7 +230,7 @@ html {
   /*  dashboard page*/
 
   .headingdesisgn {
-    font-family: prompt;
+    font-family: montserrat;
     position: relative;
   }
 
@@ -233,12 +242,12 @@ html {
   .textheading .applybutton {
     color: black;
     width: 300px;
-    font-family: prompt;
-    font-weight: 600;
+    font-family: montserrat;
+    font-weight: 700;
     position: relative;
     height: auto;
     padding: 1.2rem;
-    font-family: prompt;
+    font-family: montserrat;
   }
 
   /* footer */
@@ -252,7 +261,7 @@ html {
 
   .addressDiv h3 {
     color: var(--yellowheadings);
-    font-family: prompt;
+    font-family: montserrat;
     font-size: 1.4rem;
   }
 
@@ -263,7 +272,7 @@ html {
   }
 
   .socialDiv h1 {
-    font-family: prompt;
+    font-family: montserrat;
     position: relative;
     font-size: 1.4rem;
   }
@@ -277,19 +286,15 @@ html {
     flex-direction: column;
   }
 
-  .emailDiv img {
-    width: 25px;
-  }
-
   .emailDiv p {
     font-size: 1rem;
-    font-family: prompt;
+    font-family: montserrat;
   }
 
   .footerp {
     position: absolute;
     text-align: center;
-    font-family: prompt;
+    font-family: montserrat;
     top: 93%;
     left: 43%;
   }
@@ -310,8 +315,10 @@ html {
     left: 120%;
   }
   nav ul li .btnnav {
-    width: 200px;
+    width: 300px;
+    left: 66%;
     font-size: 1.5rem;
-    height: 8vh;
+    height: 6vh;
+    padding-top: 3%;
   }
 }

@@ -131,7 +131,7 @@ nav .mainMenu .closeMenu {
     align-items: flex-start;
     background: #ffe500;
     transition: all 300ms ease-out;
-    display: flex;
+    display: none;
     margin-top: 68px;
   }
   nav .mainMenu .closeMenu {

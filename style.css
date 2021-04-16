@@ -373,6 +373,12 @@ footer {
   margin: 10px;
 }
 
+.emailhyper {
+  text-decoration: none !important;
+  outline: none;
+  color: white;
+  list-style: none;
+}
 /* media queries  */
 
 /* animation */

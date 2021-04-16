@@ -1,7 +1,4 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,vscode
-
 ### macOS ###
 # General
 .DS_Store
@@ -65,4 +62,3 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,vscode
